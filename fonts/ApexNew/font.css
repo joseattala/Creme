@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ApexNew-Medium';
+  src: url('ApexNew-Medium.eot');
+  src: url('ApexNew-Medium.eot?#iefix') format('embedded-opentype'),
+       url('ApexNew-Medium.svg#ApexNew-Medium') format('svg'),
+       url('ApexNew-Medium.ttf') format('truetype'),
+       url('ApexNew-Medium.woff') format('woff'),
+       url('ApexNew-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

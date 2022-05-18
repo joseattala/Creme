@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Grafier-BlackDisplay';
+  src: url('Grafier-BlackDisplay.eot');
+  src: url('Grafier-BlackDisplay.eot?#iefix') format('embedded-opentype'),
+       url('Grafier-BlackDisplay.svg#Grafier-BlackDisplay') format('svg'),
+       url('Grafier-BlackDisplay.ttf') format('truetype'),
+       url('Grafier-BlackDisplay.woff') format('woff'),
+       url('Grafier-BlackDisplay.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

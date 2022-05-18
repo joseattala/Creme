@@ -1,0 +1,232 @@
+/*global*/
+
+/* Apex New Medium */
+@font-face {
+  font-family: 'ApexNew-Medium';
+  src: url('../fonts/ApexNew/ApexNew-Medium.eot');
+  src: url('../fonts/ApexNew/ApexNew-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ApexNew/ApexNew-Medium.svg#ApexNew-Medium') format('svg'),
+       url('../fonts/ApexNew/ApexNew-Medium.ttf') format('truetype'),
+       url('../fonts/ApexNew/ApexNew-Medium.woff') format('woff'),
+       url('../fonts/ApexNew/ApexNew-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Apex New Medium */
+
+/* Grafier Regular */
+@font-face {
+  font-family: 'Grafier-RegularText';
+  src: url('Grafier-RegularText.eot');
+  src: url('Grafier-RegularText.eot?#iefix') format('embedded-opentype'),
+       url('Grafier-RegularText.svg#Grafier-RegularText') format('svg'),
+       url('Grafier-RegularText.ttf') format('truetype'),
+       url('Grafier-RegularText.woff') format('woff'),
+       url('Grafier-RegularText.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Grafier Regular */
+
+/* Grafier Black */
+@font-face {
+  font-family: 'Grafier-BlackDisplay';
+  src: url('Grafier-BlackDisplay.eot');
+  src: url('Grafier-BlackDisplay.eot?#iefix') format('embedded-opentype'),
+       url('Grafier-BlackDisplay.svg#Grafier-BlackDisplay') format('svg'),
+       url('Grafier-BlackDisplay.ttf') format('truetype'),
+       url('Grafier-BlackDisplay.woff') format('woff'),
+       url('Grafier-BlackDisplay.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Grafier Black */
+
+/* Estilos de página */
+body {
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    padding:0px;
+    animation: back_animate 50s infinite linear;
+}
+@keyframes back_animate {
+    0%{background-color:#d34190;}
+    25%{background-color:#fdc400;}
+    50%{background-color:#9b9999;}
+    75%{background-color:#669fd7;}
+    100%{background-color:#d34190;}
+}
+.wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.creme {
+  width: 375px;
+  height: auto;
+}
+.claim {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .7rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: 'ApexNew-Medium';
+}
+.copy {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-family: 'Grafier-RegularText';
+  padding: 0 12%;
+}
+strong {
+  font-family: 'Grafier-BlackDisplay';
+}
+.contact {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  font-family: 'Grafier-RegularText';
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+/* Pantallas de maximo 1366 */
+@media screen and (max-width: 1366px) {
+  .creme {
+    width: 345px;
+    height: auto;
+  }
+  .claim {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .6rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'ApexNew-Medium';
+  }
+  .copy {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-family: 'Grafier-RegularText';
+  }
+}
+/* Pantallas de maximo 890 */
+@media screen and (max-width: 890px) {
+  .creme {
+    width: 285px;
+    height: auto;
+  }
+  .claim {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .6rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'ApexNew-Medium';
+  }
+  .copy {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-family: 'Grafier-RegularText';
+    padding: 0;
+  }
+  .intro {
+    display: block;
+  }
+}
+
+/* Animation properties */
+.creme {
+  animation: creme 8s ease-in 1;
+}
+.copy {
+  animation: copy 16s ease-in 1;
+}
+.contact {
+  animation: contact 24s ease-in 1;
+}
+
+/* Keyframes */
+@keyframes creme {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes copy {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes contact {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Pantallas de maximo 600 */
+@media screen and (max-width: 600px) {
+  .creme {
+    width: 230px;
+    height: auto;
+  }
+  .claim {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: bold;
+    font-size: .6rem;
+    font-family: 'ApexNew-Medium';
+  }
+  .copy {
+    font-size: .9rem;
+    line-height: 1.5rem;
+    font-family: 'Grafier-RegularText';
+    padding: 0; 
+  }
+  .contact {
+    font-size: .7rem;
+    line-height: .8rem;
+  }
+  .intro {
+    display: block;
+  }
+}
+
+/* Estilos de página */
